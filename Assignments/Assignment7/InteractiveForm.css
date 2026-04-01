@@ -1,0 +1,53 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+/* Form container */
+form {
+    background-color: white;
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+h2 {
+    color: #333;
+}
+
+/* Input fields */
+input {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Button hover */
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Message */
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: red;
+}

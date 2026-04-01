@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.diagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.box {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.arrow {
+    font-size: 30px;
+    margin: 0 15px;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:gray;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}

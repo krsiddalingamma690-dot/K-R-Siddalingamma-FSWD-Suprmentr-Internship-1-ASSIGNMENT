@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Form</title>
+    <link rel="stylesheet" href="InteractiveForm.css">
+</head>
+<body>
+
+    <h2>Signup Form</h2>
+
+    <form onsubmit="return validateForm()">
+
+        Name:<br>
+        <input type="text" id="name"><br><br>
+
+        Email:<br>
+        <input type="text" id="email"><br><br>
+
+        Password:<br>
+        <input type="password" id="password"><br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <p id="message"></p>
+
+    <!-- Link JS file -->
+    <script src="InteractiveForm.js"></script>
+
+</body>
+</html>

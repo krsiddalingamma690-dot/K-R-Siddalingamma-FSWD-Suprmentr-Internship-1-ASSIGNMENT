@@ -1,0 +1,64 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    color: white;
+}
+
+/* Text */
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    color: #2193b0;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Image */
+.hero-image img {
+    width: 350px;
+    max-width: 100%;
+}
+
+/* 🔥 Responsive for Mobile */
+@media (max-width: 768px) {
+    
+    .hero {
+        flex-direction: column; /* stack items */
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-image img {
+        width: 250px;
+        margin-top: 20px;
+    }
+}

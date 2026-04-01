@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #e0f7fa;
+}
+
+input {
+    padding: 8px;
+    margin: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #0288d1;
+    color: white;
+    border: none;
+}
+
+#status {
+    font-weight: bold;
+    color: orange;
+}
+
+#result {
+    font-size: 18px;
+    color: green;
+}
